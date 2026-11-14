@@ -20,7 +20,7 @@ except Exception:
     st.error("Gemini API key missing. Add GEMINI_API_KEY in Streamlit Secrets.")
     st.stop()
 
-MODEL = "gemini-flash-lite-latest"
+MODEL = "gemini-3.5-flash-lite"
 
 
 def ask_ai(question):
